@@ -6,7 +6,14 @@ SocketAPI is a simple library for building client-server communication applicati
 It allows clients to connect to a server and register channels to receive messages on, 
 as well as send messages to specific channels.
 
+SocketAPI is a great choice for building application that requires real-time communication between clients and a server. 
+It's easy to get started with, and provides a simple yet powerful interface for building robust and scalable client-server applications.
+
 # Getting Started
+
+To use SocketAPI, you need to first create a server and a client. The server should be started first, 
+and then clients can connect to it and register channels to receive messages on. 
+Once a channel is registered, messages can be sent to it by any connected client.
 
 ## Create the Server
 
