@@ -16,8 +16,11 @@ Here's an example of how to create a client and connect it to a server:
 Client client = new Client("localhost", 8080);
 ```
 
+```
+// create a new client and connect it to a server running on localhost:8080
+```
 ```ruby
-
+Client client = new Client("localhost", 8080);
 ```
 
 # Registering Channels
