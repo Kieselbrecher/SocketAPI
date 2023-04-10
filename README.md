@@ -6,7 +6,7 @@ SocketAPI is a simple library for building client-server communication applicati
 It allows clients to connect to a server and register channels to receive messages on, 
 as well as send messages to specific channels.
 
-# Getting Started
+## Getting Started
 
 To use SocketAPI, you need to first create a server and a client. 
 Here's an example of how to create a client and connect it to a server:
@@ -16,14 +16,7 @@ Here's an example of how to create a client and connect it to a server:
 Client client = new Client("localhost", 8080);
 ```
 
-```
-// create a new client and connect it to a server running on localhost:8080
-```
-```ruby
-Client client = new Client("localhost", 8080);
-```
-
-# Registering Channels
+## Registering Channels
 
 Once you've connected to the server, you can register channels to receive messages on. 
 Here's an example of how to register a channel:
@@ -33,7 +26,7 @@ Here's an example of how to register a channel:
 client.registerChannel("test", message -> System.out.println("Received message: " + message));
 ```
 
-# Sending Messages
+## Sending Messages
 
 To send a message to a channel, you can use the sendMessage method. 
 Here's an example of how to send a message to the "test" channel:
@@ -43,7 +36,7 @@ Here's an example of how to send a message to the "test" channel:
 client.sendMessage("test", "Hello, world!");
 ```
 
-# Closing the Client
+## Closing the Client
 
 Finally, when you're done using the client, you should close the connection to the server:
 
@@ -52,7 +45,7 @@ Finally, when you're done using the client, you should close the connection to t
 client.close();
 ```
 
-# Example
+## Example
 
 Here's an example of how to use SocketAPI to build a simple chat application:
 
@@ -78,6 +71,6 @@ public class ChatClient {
 }
 ```
 
-# License
+### License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
