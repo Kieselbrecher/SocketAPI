@@ -12,7 +12,7 @@ To use SocketAPI, you need to first create a server and a client.
 Here's an example of how to create a client and connect it to a server:
 
 ```ruby
-// create a new client and connect it to a server running on localhost:8080
+**// create a new client and connect it to a server running on localhost:8080**
 Client client = new Client("localhost", 8080);
 ```
 
