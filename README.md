@@ -64,7 +64,15 @@ client.close();
 
 Here's an example of how to use SocketAPI to build a simple chat application:
 
+```ruby
+public class ChatServer {
+    public static void main(String[] args) {
+        Server server = new Server(8080);
 
+        server.start();
+    }
+}
+```
 
 ```ruby
 public class ChatClient {
